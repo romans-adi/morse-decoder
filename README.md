@@ -63,28 +63,28 @@ The Morse Decoder is a Ruby program that translates Morse code messages into rea
 
 1. Ensure you have Ruby installed on your system. You can check your Ruby version in the terminal by running:
 
-```ruby -v```
+  ```ruby -v```
 
 If Ruby is not installed, you can download and install it from the official Ruby website.
 
 2. To get a local copy up and running, follow these steps.
 Choose the directory on your local machine where you want to copy project. For example:
 
-> cd /home/user/name-of-your-directory
+```cd /home/user/name-of-your-directory```
 
 Clone the project using one of the options.
 
 Using SSH-key:
 
-> git clone git@github.com:romans-adi/morse-decoder.git
+  ```git clone git@github.com:romans-adi/morse-decoder.git```
 
 Using HTTPS:
 
-> git clone https://github.com/romans-adi/morse-decoder.git
+  ```git clone https://github.com/romans-adi/morse-decoder.git```
 
 You can also create the new directory just adding the name of it in the end of command. For example:
 
-> git clone https://github.com/romans-adi/morse-decoder.git morse-decoder
+  ```git clone https://github.com/romans-adi/morse-decoder.git morse-decoder```
 
 ### Installation <a name="installation"></a>
 
@@ -95,7 +95,7 @@ To run this project locally, follow these steps:
 2. Navigate to the directory where you have cloned or downloaded the Morse Decoder repository.
 
 3. Run the following command to install any required dependencies (in this case, we assume there are no external dependencies, so this step may not be needed):
-```bundle install```
+  ```bundle install```
 
 ### Usage <a name="usage"></a>
 
@@ -103,7 +103,7 @@ To run this project locally, follow these steps:
 
 2. To run the app, execute the following command:
 
-```ruby main.rb```
+  ```ruby main.rb```
 
 3. The decoded message will be displayed as the output.
 
